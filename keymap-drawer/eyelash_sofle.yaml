@@ -167,8 +167,8 @@ layers:
   - Sft+$$mdi:arrow-up-bold$$
   - Sft+$$mdi:arrow-down-bold$$
   - Sft+$$mdi:arrow-right-bold$$
-  - '{'
-  - '}'
+  - _
+  - +
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
