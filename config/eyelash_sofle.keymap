@@ -61,7 +61,7 @@
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &mo 1     &kp ENTER        &kp ENTER  &kp SPACE  &mo 2      &to 3    &kp RIGHT_CONTROL
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
             display-name = "LAYER0";
         };
 
