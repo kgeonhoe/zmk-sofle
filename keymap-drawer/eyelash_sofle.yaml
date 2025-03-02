@@ -106,10 +106,10 @@ layers:
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
   - RGB OFF
-  - RGB ON
+  - Ctl+X
   - Ctl+C
   - Ctl+V
-  - RGB SPI
+  - Ctl+B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+PgUp
@@ -170,11 +170,11 @@ layers:
   - _
   - +
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
+  - RGB ON
+  - RGB EFR
+  - RGB EFR
+  - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
