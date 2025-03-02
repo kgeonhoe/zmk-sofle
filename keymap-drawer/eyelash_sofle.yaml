@@ -111,11 +111,11 @@ layers:
   - Ctl+V
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - PgUp
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+PgUp
-  - Ins
-  - F11
-  - F12
+  - PG UP
+  - INS
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -125,9 +125,9 @@ layers:
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgDn
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - Ctl+PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - '~'
