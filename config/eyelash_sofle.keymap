@@ -67,11 +67,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE       &kp F1           &kp F2           &kp F3           &kp F4     &kp F5             &mmv MOVE_UP     &kp F6       &kp F7           &kp F8             &kp F9     &kp F10           &trans
-&kp TILDE       &kp GRAVE        &mkp LCLK        &mkp MCLK        &mkp RCLK  &mkp MB4           &mmv MOVE_DOWN   &kp HOME     &kp END          &kp I              &kp DEL    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans          &kp LC(A)        &trans           &trans           &trans     &mkp MB5           &mmv MOVE_LEFT   &kp LEFT     &kp UP_ARROW     &kp DOWN           &kp RIGHT  &kp MINUS         &kp EQUAL
-&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &kp LC(C)        &kp LC(V)  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp PAGE_UP  &kp LC(PAGE_UP)  &kp INSERT         &kp F11    &kp F12           &trans
-&kp C_MUTE      &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans     &trans             &mkp LCLK        &trans       &kp PAGE_DOWN    &kp LC(PAGE_DOWN)  &trans     &trans
+&kp GRAVE       &kp F1           &kp F2           &kp F3           &kp F4     &kp F5             &mmv MOVE_UP     &kp F6    &kp F7             &kp F8             &kp F9         &kp F10           &trans
+&kp TILDE       &kp GRAVE        &mkp LCLK        &mkp MCLK        &mkp RCLK  &mkp MB4           &mmv MOVE_DOWN   &kp HOME  &kp END            &kp I              &kp DEL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans          &kp LC(A)        &trans           &trans           &trans     &mkp MB5           &mmv MOVE_LEFT   &kp LEFT  &kp UP_ARROW       &kp DOWN           &kp RIGHT      &kp MINUS         &kp EQUAL
+&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &kp LC(C)        &kp LC(V)  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &trans    &kp LC(PAGE_UP)    &kp PG_UP          &kp INS        &trans            &trans
+&kp C_MUTE      &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans     &trans             &mkp LCLK        &trans    &kp LC(BACKSPACE)  &kp LC(PAGE_DOWN)  &kp PAGE_DOWN  &trans
             >;
 
             display-name = "layer1";
