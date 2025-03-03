@@ -85,9 +85,9 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - Ins
   - HOME
   - END
-  - I
   - $$mdi:backspace-reverse-outline$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -150,9 +150,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+HOME
   - Sft+END
-  - Ins
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '}'
