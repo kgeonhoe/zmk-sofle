@@ -86,8 +86,8 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Ins
-  - HOME
-  - END
+  - Sft+HOME
+  - Sft+END
   - $$mdi:backspace-reverse-outline$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -98,10 +98,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - Sft+$$mdi:arrow-left-bold$$
+  - Sft+$$mdi:arrow-down-bold$$
+  - Sft+$$mdi:arrow-up-bold$$
+  - Sft+$$mdi:arrow-right-bold$$
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-shift$$
@@ -118,14 +118,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - RGB EFR
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - Ctl+PgDn
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
@@ -151,8 +151,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+HOME
-  - Sft+END
+  - Ctl+Sft+HOME
+  - Ctl+Sft+END
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '}'
@@ -163,10 +163,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - Sft+$$mdi:arrow-left-bold$$
-  - Sft+$$mdi:arrow-down-bold$$
-  - Sft+$$mdi:arrow-up-bold$$
-  - Sft+$$mdi:arrow-right-bold$$
+  - Ctl+Sft+$$mdi:arrow-left-bold$$
+  - Ctl+Sft+$$mdi:arrow-down-bold$$
+  - Ctl+Sft+$$mdi:arrow-up-bold$$
+  - Ctl+Sft+$$mdi:arrow-right-bold$$
   - _
   - +
   - $$mdi:apple-keyboard-control$$
