@@ -67,11 +67,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE       &kp F1           &kp F2           &kp F3           &kp F4     &kp F5       &mmv MOVE_UP     &kp F6      &kp F7             &kp F8             &kp F9         &kp F10           &trans
-&kp TILDE       &kp GRAVE        &mkp LCLK        &mkp MCLK        &mkp RCLK  &mkp MB4     &mmv MOVE_DOWN   &kp INSERT  &kp HOME           &kp END            &kp DEL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans          &kp LC(A)        &kp LC(S)        &trans           &trans     &mkp MB5     &mmv MOVE_LEFT   &kp LEFT    &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT      &kp MINUS         &kp EQUAL
-&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &kp LC(X)        &kp LC(C)        &kp LC(V)  &kp LC(B)    &mmv MOVE_RIGHT  &trans      &kp LC(PAGE_UP)    &kp PG_UP          &kp INS        &trans            &trans
-&kp C_MUTE      &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans     &trans       &mkp LCLK        &trans      &kp LC(BACKSPACE)  &kp LC(PAGE_DOWN)  &kp PAGE_DOWN  &trans
+&kp GRAVE       &kp F1           &kp F2           &kp F3           &kp F4     &kp F5       &mmv MOVE_UP     &kp F6        &kp F7              &kp F8             &kp F9         &kp F10           &trans
+&kp TILDE       &kp GRAVE        &mkp LCLK        &mkp MCLK        &mkp RCLK  &mkp MB4     &mmv MOVE_DOWN   &kp INSERT    &kp LS(HOME)        &kp LS(END)        &kp DEL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans          &kp LC(A)        &kp LC(S)        &trans           &trans     &mkp MB5     &mmv MOVE_LEFT   &kp LS(LEFT)  &kp LS(DOWN_ARROW)  &kp LS(UP_ARROW)   &kp LS(RIGHT)  &kp MINUS         &kp EQUAL
+&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &kp LC(X)        &kp LC(C)        &kp LC(V)  &kp LC(B)    &mmv MOVE_RIGHT  &trans        &kp LC(PAGE_UP)     &kp PG_UP          &kp INS        &trans            &trans
+&kp C_MUTE      &kp LCTRL        &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans     &trans       &mkp LCLK        &trans        &kp BACKSPACE       &kp LC(PAGE_DOWN)  &kp PAGE_DOWN  &trans
             >;
 
             display-name = "layer1";
@@ -80,11 +80,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3       &bt BT_SEL 4       &mmv MOVE_UP     &kp F6        &kp F7              &kp F8            &kp F9         &kp F11         &kp F12
-&trans     &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans             &trans             &mmv MOVE_DOWN   &trans        &kp LS(HOME)        &kp LS(END)       &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans     &out OUT_USB     &out OUT_BLE    &trans           &trans             &trans             &mmv MOVE_LEFT   &kp LS(LEFT)  &kp LS(DOWN_ARROW)  &kp LS(UP_ARROW)  &kp LS(RIGHT)  &kp UNDER       &kp PLUS
-&kp LCTRL  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFR    &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &trans        &trans              &sys_reset        &soft_off      &bootloader     &trans
-&trans     &trans           &trans          &trans           &kp LC(BACKSPACE)  &trans             &mkp LCLK        &trans        &trans              &trans            &trans         &trans
+&kp TILDE  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3       &bt BT_SEL 4       &mmv MOVE_UP     &kp F6            &kp F7                  &kp F8                &kp F9             &kp F11         &kp F12
+&trans     &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans             &trans             &mmv MOVE_DOWN   &trans            &kp LC(LS(HOME))        &kp LC(LS(END))       &trans             &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans     &out OUT_USB     &out OUT_BLE    &trans           &trans             &trans             &mmv MOVE_LEFT   &kp LC(LS(LEFT))  &kp LC(LS(DOWN_ARROW))  &kp LC(LS(UP_ARROW))  &kp LC(LS(RIGHT))  &kp UNDER       &kp PLUS
+&kp LCTRL  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFR  &rgb_ug RGB_EFR    &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &trans            &trans                  &sys_reset            &soft_off          &bootloader     &trans
+&trans     &trans           &trans          &trans           &kp LC(BACKSPACE)  &trans             &mkp LCLK        &trans            &trans                  &trans                &trans             &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
