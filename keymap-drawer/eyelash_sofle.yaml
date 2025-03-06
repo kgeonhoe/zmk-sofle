@@ -125,7 +125,7 @@ layers:
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - Ctl+PgDn
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
@@ -151,8 +151,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Sft+HOME
-  - Ctl+Sft+END
+  - Ctl+HOME
+  - Ctl+END
   - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '}'
@@ -163,10 +163,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - Ctl+Sft+$$mdi:arrow-left-bold$$
-  - Ctl+Sft+$$mdi:arrow-down-bold$$
-  - Ctl+Sft+$$mdi:arrow-up-bold$$
-  - Ctl+Sft+$$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-down-bold$$
+  - Ctl+$$mdi:arrow-up-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
   - _
   - +
   - $$mdi:apple-keyboard-control$$
