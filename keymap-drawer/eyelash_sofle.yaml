@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
@@ -62,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - '2'
-  - {t: '3', h: toggle}
+  - '3'
   - $$mdi:apple-keyboard-control$$
   layer1:
   - {t: '`', s: '~'}
@@ -257,7 +258,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
   - {t: '$$mdi:transfer$$', type: trans}
