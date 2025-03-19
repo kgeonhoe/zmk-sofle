@@ -68,7 +68,7 @@
 &kp GRAVE       &kp F1        &kp F2     &kp F3     &kp F4     &kp F5       &mmv MOVE_UP     &kp F6        &kp F7              &kp F8             &kp F9         &kp F10           &trans
 &kp TILDE       &kp GRAVE     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4     &mmv MOVE_DOWN   &kp INSERT    &kp LS(HOME)        &kp LS(END)        &kp DEL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp CAPS        &kp LC(A)     &kp LC(S)  &trans     &trans     &mkp MB5     &mmv MOVE_LEFT   &kp LS(LEFT)  &kp LS(DOWN_ARROW)  &kp LS(UP_ARROW)   &kp LS(RIGHT)  &kp MINUS         &kp EQUAL
-&kp LEFT_SHIFT  &kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &mmv MOVE_RIGHT  &trans        &kp LC(PAGE_UP)     &kp PG_UP          &kp INS        &trans            &trans
+&kp LEFT_SHIFT  &kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &mmv MOVE_RIGHT  &trans        &kp LC(PAGE_UP)     &kp PG_UP          &kp INS        &trans            &kp RIGHT_SHIFT
 &kp C_MUTE      &kp LEFT_ALT  &trans     &kp LCTRL  &trans     &trans       &mkp LCLK        &trans        &kp LC(BACKSPACE)   &kp LC(PAGE_DOWN)  &kp PAGE_DOWN  &trans
             >;
 
@@ -100,11 +100,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans        &trans  &trans     &trans          &trans    &trans  &trans          &trans                &trans                 &trans             &trans            &trans
-&trans  &trans        &trans  &trans     &trans          &trans    &trans  &trans          &kp HOME              &kp END                &kp DEL            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans        &trans  &trans     &kp LANGUAGE_1  &trans    &trans  &kp LEFT_ARROW  &kp DOWN              &kp UP_ARROW           &kp RIGHT          &kp MINUS         &kp EQUAL
-&trans  &trans        &trans  &trans     &trans          &trans    &trans  &kp STAR        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &trans            &kp CAPS
-&trans  &kp LEFT_ALT  &trans  &kp LCTRL  &kp BACKSPACE   &trans    &trans  &trans          &kp BACKSPACE         &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &trans
+&trans  &trans        &trans  &trans     &trans          &trans    &trans  &trans          &trans         &trans                &trans                 &trans            &trans
+&trans  &trans        &trans  &trans     &trans          &trans    &trans  &trans          &kp HOME       &kp END               &kp DEL                &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &trans        &trans  &trans     &kp LANGUAGE_1  &trans    &trans  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW          &kp RIGHT              &kp MINUS         &kp EQUAL
+&trans  &trans        &trans  &trans     &trans          &trans    &trans  &kp STAR        &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &kp CAPS
+&trans  &kp LEFT_ALT  &trans  &kp LCTRL  &kp BACKSPACE   &trans    &trans  &trans          &kp BACKSPACE  &trans                &trans                 &trans
             >;
         };
     };
