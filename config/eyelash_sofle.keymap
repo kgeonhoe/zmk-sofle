@@ -104,7 +104,7 @@
 &trans  &trans        &trans  &trans     &trans          &trans    &trans  &trans          &kp HOME       &kp END               &kp DEL                &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans  &trans        &trans  &trans     &kp LANGUAGE_1  &trans    &trans  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW          &kp RIGHT              &kp MINUS         &kp EQUAL
 &trans  &trans        &trans  &trans     &trans          &trans    &trans  &kp STAR        &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &kp CAPS
-&trans  &kp LEFT_ALT  &trans  &kp LCTRL  &kp BACKSPACE   &trans    &trans  &trans          &kp BACKSPACE  &trans                &trans                 &trans
+&trans  &kp LEFT_ALT  &trans  &kp LCTRL  &kp BACKSPACE   &trans    &trans  &trans          &kp BACKSPACE  &trans                &kp LEFT_BRACE         &kp RIGHT_BRACE
             >;
         };
     };
