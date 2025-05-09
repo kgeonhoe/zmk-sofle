@@ -65,11 +65,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE       &kp F1        &kp F2     &kp F3     &kp F4     &kp F5       &mmv MOVE_UP     &kp F6        &kp F7              &kp F8             &kp F9         &kp F10           &trans
-&kp TILDE       &kp GRAVE     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4     &mmv MOVE_DOWN   &kp INSERT    &kp LS(HOME)        &kp LS(END)        &kp DEL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp CAPS        &kp LC(A)     &kp LC(S)  &trans     &trans     &mkp MB5     &mmv MOVE_LEFT   &kp LS(LEFT)  &kp LS(DOWN_ARROW)  &kp LS(UP_ARROW)   &kp LS(RIGHT)  &kp MINUS         &kp EQUAL
-&kp LEFT_SHIFT  &kp LC(Z)     &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)    &mmv MOVE_RIGHT  &trans        &kp LC(PAGE_UP)     &kp PG_UP          &kp INS        &trans            &kp RIGHT_SHIFT
-&kp C_MUTE      &kp LEFT_ALT  &trans     &kp LCTRL  &trans     &trans       &mkp LCLK        &trans        &kp LC(BACKSPACE)   &kp LC(PAGE_DOWN)  &kp PAGE_DOWN  &trans
+&kp GRAVE       &kp F1        &kp F2  &kp F3     &kp F4            &kp F5               &mmv MOVE_UP     &kp F6      &kp F7           &kp F8             &kp F9         &kp F10           &trans
+&kp TILDE       &kp GRAVE     &trans  &trans     &trans            &trans               &mmv MOVE_DOWN   &kp INSERT  &kp HOME         &kp END            &kp DEL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp CAPS        &trans        &trans  &trans     &kp LEFT_SHIFT    &kp LCTRL            &mmv MOVE_LEFT   &kp LEFT    &kp DOWN_ARROW   &kp UP_ARROW       &kp RIGHT      &kp MINUS         &kp EQUAL
+&kp LEFT_SHIFT  &trans        &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &mmv MOVE_RIGHT  &trans      &kp LC(PAGE_UP)  &kp PG_UP          &kp INS        &trans            &kp RIGHT_SHIFT
+&kp C_MUTE      &kp LEFT_ALT  &trans  &kp LCTRL  &trans            &trans               &mkp LCLK        &trans      &kp BACKSPACE    &kp LC(PAGE_DOWN)  &kp PAGE_DOWN  &trans
             >;
 
             display-name = "layer1";
@@ -81,7 +81,7 @@
 &kp TILDE       &trans  &trans  &trans  &trans             &trans    &mmv MOVE_UP     &kp F6        &kp F7              &kp F8            &kp F9         &kp F11         &kp F12
 &trans          &trans  &trans  &trans  &trans             &trans    &mmv MOVE_DOWN   &trans        &kp LC(HOME)        &kp LC(END)       &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans          &trans  &trans  &trans  &trans             &trans    &mmv MOVE_LEFT   &kp LC(LEFT)  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &kp UNDER       &kp PLUS
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans             &trans    &mmv MOVE_RIGHT  &trans        &trans              &sys_reset        &soft_off      &bootloader     &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans             &trans    &mmv MOVE_RIGHT  &trans        &trans              &trans            &trans         &trans          &trans
 &trans          &trans  &trans  &trans  &kp LC(BACKSPACE)  &trans    &mkp LCLK        &trans        &trans              &trans            &trans         &trans
             >;
 
