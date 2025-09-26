@@ -78,11 +78,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &trans  &trans  &trans  &trans             &trans    &mmv MOVE_UP     &kp F6        &kp F7              &kp F8            &kp F9         &kp F11         &kp F12
-&trans          &trans  &trans  &trans  &trans             &trans    &mmv MOVE_DOWN   &trans        &kp LC(HOME)        &kp LC(END)       &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans          &trans  &trans  &trans  &trans             &trans    &mmv MOVE_LEFT   &kp LC(LEFT)  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &kp UNDER       &kp PLUS
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans             &trans    &mmv MOVE_RIGHT  &trans        &trans              &trans            &trans         &trans          &trans
-&trans          &trans  &trans  &trans  &kp LC(BACKSPACE)  &trans    &mkp LCLK        &trans        &trans              &trans            &trans         &trans
+&kp TILDE       &trans  &trans  &trans  &trans             &trans       &mmv MOVE_UP     &kp F6        &kp F7              &kp F8            &kp F9         &kp F11         &kp F12
+&trans          &trans  &trans  &trans  &trans             &trans       &mmv MOVE_DOWN   &trans        &kp LC(HOME)        &kp LC(END)       &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans          &trans  &trans  &trans  &trans             &trans       &mmv MOVE_LEFT   &kp LC(LEFT)  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &kp UNDER       &kp PLUS
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans             &trans       &mmv MOVE_RIGHT  &trans        &trans              &trans            &trans         &trans          &trans
+&trans          &trans  &trans  &trans  &kp LC(BACKSPACE)  &kp LA(Q)    &mkp LCLK        &trans        &trans              &trans            &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
